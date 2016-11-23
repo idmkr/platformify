@@ -10,7 +10,8 @@ composer require idmkr/platformify --dev
 idmkr\platformify\Providers\CodeceptionServiceProvider::class,
 ```
 
-```use (tests\_support\Helper\Functional.php)
+```use 
+(tests\_support\Helper\Functional.php)
 
 <?php
 namespace Helper;
@@ -34,3 +35,4 @@ class Functional extends \Codeception\Module
     }
 
 }
+```
