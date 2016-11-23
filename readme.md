@@ -1,3 +1,5 @@
+## Test Helper for Cartalyst Platform Framework
+
 ## Installation
 
 ```sh
