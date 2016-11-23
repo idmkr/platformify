@@ -5,15 +5,17 @@
 ```sh
 composer require idmkr/platformify --dev
 ```
+Add to config\app.php
 
 ```php
 idmkr\platformify\Providers\CodeceptionServiceProvider::class,
 ```
 
-```use 
-(tests\_support\Helper\Functional.php)
+## Use in codeception test 
 
-<?php
+tests\_support\Helper\Functional.php
+
+```php
 namespace Helper;
 
 use Codeception\TestInterface;
@@ -36,3 +38,16 @@ class Functional extends \Codeception\Module
 
 }
 ```
+
+## Use with CodeShip
+
+add in composer.json :
+
+```sh
+        "post-install-cmd": [
+            ...
+            "php artisan app:install --seed",
+            ...
+        ],
+```
+
