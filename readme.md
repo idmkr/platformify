@@ -19,7 +19,7 @@ tests\_support\Helper\Functional.php
 namespace Helper;
 
 use Codeception\TestInterface;
-use idmkr\platformify\Traits\Platformify;
+use Idmkr\Platformify\Traits\Platformify;
 
 // here you can define custom actions
 // all public methods declared in helper class will be available in $I
