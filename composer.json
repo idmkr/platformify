@@ -1,0 +1,16 @@
+{
+    "name": "idmkr/platformify",
+    "description": "Adapt Platform framework to Codeception",
+    "authors": [
+        {
+            "name": "idmkr",
+            "email": "team@idmkr.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "platform/foundation": "~3.0",
+        "platform/installer": "~3.0",
+        "codeception/codeception": "*"
+    }
+}
